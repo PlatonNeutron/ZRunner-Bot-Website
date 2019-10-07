@@ -1,0 +1,1 @@
+		Manage your server like it never happened before<br/> with <span class="ColorZbot">Zbot</span>, a friendly and multitask Discord bot.

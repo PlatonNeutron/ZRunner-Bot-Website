@@ -1,0 +1,1 @@
+		Modération, commandes fun, flux RSS, et<br/> système d'XP seront au rendez-vous, ainsi que<br/> bien d'autres surprises !

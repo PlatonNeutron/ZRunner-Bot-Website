@@ -1,0 +1,247 @@
+@font-face {
+	font-family: 'Title';
+	src: url('assets/Xolonium.otf');
+}
+
+@font-face {
+	font-family: 'Main';
+	src: url('assets/Staatliches-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'All';
+	src: url('assets/Dosis-SemiBold.ttf');
+}
+
+@keyframes Twitter {
+	from {
+		width: 0%;
+	}
+	to {
+		width: 7%;
+	}
+}
+
+@-webkit-keyframes Twitter {
+	from {
+		width: 0%;
+	}
+	to {
+		width: 7%;
+	}
+}
+
+/* Main */
+
+body {
+	background-image: url('assets/bgfinal.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0px;
+	padding: 0px;
+	font-family: All;
+}
+
+.ColorZbot {
+	color: #72d774;
+}
+
+/* Header */
+
+header {
+	background-color: rgba(0, 0, 0, 0.35);
+	height: 20%;
+	width: 100%;
+	font-size: 1.7em;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+	text-decoration-style: border;
+	text-shadow: 0 0 1px rgba(255,255,255,1), 0 0 3px rgba(255,255,255,1), 0 0 7px rgba(255,255,255,1);
+	align-items: center;
+
+	font-family: Main;
+
+	z-index: 999;
+}
+
+#Logo img {
+	height: 5em;
+}
+
+.HeaderLink {
+	color: white;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+#Functionnalities {
+	color: white;
+}
+
+#SupportServer {
+	color: white;
+}
+
+/* Content */
+
+#FirstAnnounce {
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+
+	position: absolute;
+	left: 15%;
+	top: 27%;
+}
+
+#SecondAnnounce {
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+
+	position: absolute;
+	right: 12%;
+	top: 27%;
+}
+
+#Invite {
+	position: absolute;
+	top: 65%;
+	left: 39%;
+}
+
+#Invite img {
+	width: 70%;
+}
+
+/* Footer */
+
+footer {
+	background-color: rgba(0, 0, 0, 0.35);
+	height: 11%;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	color: white;
+	text-align: center;
+	padding-top: 1%;
+	z-index: 999;
+}
+
+footer a {
+	color: white;
+}
+
+#Contact {
+	color: white;
+}
+
+#Twitter {
+	position: fixed;
+	right: -18%;
+	bottom: 2%;
+}
+
+#Twitter img {
+	width: 7%;
+	text-shadow: 0 0 1px rgba(255,255,255,1), 0 0 3px rgba(255,255,255,1), 0 0 7px rgba(255,255,255,1);
+	animation: Twitter 0.75s;
+	-webkit-animation: Twitter 0.75s;
+	/*transform: translateX(-5%);*/
+}
+
+#LangSelector {
+	position: fixed;
+	bottom: 2%;
+	left: 0;
+}
+
+#LangSelectorBtn {
+	width: 20%;
+}
+
+#MobileLinks {
+	display: none;
+}
+
+
+
+/* Media Queries */
+
+@media all and (max-device-width: 1024px) {
+	body {
+		background-image: url('assets/bgmobile.png');
+	}
+
+	#Header {
+		flex-direction: column;
+		height: 60%;
+	}
+
+	#FirstAnnounce {
+		left: 5%;
+	}
+
+	#SecondAnnounce {
+		top: 43%;
+		left: 15%;
+	}
+
+	#Invite {
+		left: 25%;
+	}
+
+	widgetbot-crate {
+		display: none;
+	}
+
+	#Twitter {
+		transform: translateX(27%);
+	}
+
+	#LangSelector {
+		display: none;
+	}
+
+	#MobileLinks {
+		display: inline;
+	}
+
+	.Responsive_ToHide {
+		display: none;
+	}
+
+	#Logo img {
+		width: 3em;
+		height: 3.5em;
+	}
+
+}
+
+@media all and (max-device-width: 1024px) {
+	#Twitter {
+		right: -25%;
+	}
+}
+
+/* Others */
+#Title {
+	font-family: 'Main';
+}
+
+#ServerName {
+	font-family: 'Main';
+}
+
+.Subtitles {
+	font-family: 'Main';
+}

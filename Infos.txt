@@ -1,0 +1,4 @@
+Les hex codes (page principale):
+Texte Zbot: #72d774 (vert pâle)
+Autres textes: #FFFFFF (blanc)
+Header/footer: #000000 (noir) (transparence 0.35)

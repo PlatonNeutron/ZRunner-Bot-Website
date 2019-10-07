@@ -1,0 +1,93 @@
+@keyframes ZRobot_Default {
+	from {
+		transform: translateY(-50%);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes ZRobot_Default {
+	from {
+		transform: translateY(-50%);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+
+@keyframes Appear {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes Appear {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#ZRobot_Default {
+	width: 35%;
+	z-index: 1000;
+	animation: ZRobot_Default 2s;
+	-webkit-animation: ZRobot_Default 2s;
+}
+
+#ZRobot_Other {
+	width: 35%;
+	z-index: 1000;
+}
+
+#Bulle_Size1 {
+	z-index: 1001;
+	width: 25%;
+	position: absolute;
+	right: 20%;
+	top: 20%;
+	animation: Appear 2s;
+	-webkit-animation: Appear 2s;
+}
+
+#Bulle_Size2 {
+	z-index: 1001;
+	width: 25%;
+	position: absolute;
+	right: 20%;
+	top: 20%;
+	animation: Appear 2s;
+	-webkit-animation: Appear 2s;
+}
+
+#Text {
+	z-index: 1002;
+	position: absolute;
+	right: 26%;
+	top: 24%;
+	font-size: 1.5em;
+	animation: Appear 2s;
+	-webkit-animation: Appear 2s;
+	text-align: center;
+}
+
+#Text2 {
+	z-index: 1002;
+	position: absolute;
+	right: 22%;
+	top: 24%;
+	font-size: 1.5em;
+	animation: Appear 2s;
+	-webkit-animation: Appear 2s;
+	text-align: center;
+}

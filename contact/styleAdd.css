@@ -1,0 +1,117 @@
+#Title {
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+
+	text-align: center;
+	position: relative;
+	padding-top: 11%;
+}
+
+#Name {
+	position: absolute;
+	left: 10%;
+	top: 40%;
+
+	border-radius: 20px;
+	background-color: rgba(176, 176, 176, 0.8);
+
+	width: 35%;
+	height: 5%;
+
+	transition-property: background-color;
+	transition-duration: 1s;
+}
+
+#Name:hover {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+#Mail {
+	position: absolute;
+	left: 10%;
+	top: 60%;
+
+	border-radius: 20px;
+	background-color: rgba(176, 176, 176, 0.8);
+
+	width: 35%;
+	height: 5%;
+
+	transition-property: background-color;
+	transition-duration: 1s;
+}
+
+#Mail:hover {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+#Message {
+	position: absolute;
+	left: 50%;
+	top: 32%;
+
+	border-radius: 10px;
+	background-color: rgba(176, 176, 176, 0.8);
+	font-family: All;
+
+	width: 28%;
+	height: 40%;
+
+	transition-property: background-color;
+	transition-duration: 1s;
+
+	resize: none;
+}
+
+#Message:hover {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+#RequiredFields {
+	position: absolute;
+	left: 10%;
+	top: 80%;
+
+	color: rgba(176, 176, 176, 0.8);
+}
+
+#Submit {
+	position: absolute;
+	right: 8%;
+	top: 75%;
+
+	background-color: rgba(0, 0, 0, 0);
+	border: white 0px inset; 
+}
+
+#Submit img {
+	width: 45%;
+}
+
+@media all and (max-device-width: 1024px) {
+	/* position: static; pour annuler position: absolute; */
+	#Title {
+		padding-top: 27%;
+	}
+
+	#Name {
+		top: 30%;
+	}
+
+	#Mail {
+		top: 50%;
+	}
+
+	#Message {
+		top: 30%;
+	}
+
+	#Submit {
+		top: 72%;
+	}
+
+	#RequiredFields {
+		top: 65%;
+	}
+}

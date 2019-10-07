@@ -1,0 +1,13 @@
+#Main {
+	padding-top: 4%;
+}
+
+#paypal-button-container {
+	padding-top: 15%;
+}
+
+@media all and (max-device-width: 1024px) {
+	#paypal-button-container {
+		padding-top: 35%;
+	}
+}

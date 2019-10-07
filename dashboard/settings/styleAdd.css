@@ -1,0 +1,33 @@
+#SettingsMain {
+	background-color: #cccccc;
+	color: rgb(25, 25, 25);
+	border: 5px solid blue;
+	border-radius: 18px;
+	width: 60%;
+	height: 50%;
+	margin-left: 20%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	font-size: 1.5em;
+}
+
+#Title {
+	color: white;
+	/*font-family: 'Title';*/
+	text-align: center;
+	font-size: 2.6em;
+}
+
+#DiscordDisplayMode {
+	width: 15%;
+	border: 2px solid aliceblue;
+	border-radius: 3px;
+	font-family: Main;
+}
+
+#submit {
+	background-color: #00ee00;
+	border: 3px outset white;
+	border-radius: 8px;
+	font-family: Main;
+}

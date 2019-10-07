@@ -1,0 +1,25 @@
+#en {
+	display: inline;
+	width: 8%;
+	position: relative;
+	left: -17%;
+	/*top: 120%;*/
+	transform: translateY(-16%);
+}
+
+#fr {
+	display: none;
+	width: 8%;
+	position: relative;
+	left: -17%;
+	/*top: 120%;*/
+	transform: translateY(-16%);
+}
+
+#LangSelector:hover #fr {
+	display: inline;
+}
+
+#LangSelector:hover #en {
+	display: none;
+}

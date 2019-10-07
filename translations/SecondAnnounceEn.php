@@ -1,0 +1,1 @@
+		Moderation, fun commands, RSS, and<br/> XP system are included with Zbot, like<br/> much more other surprises !

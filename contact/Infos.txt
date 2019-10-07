@@ -1,0 +1,4 @@
+Les hex codes (page contact):
+Boîtes: #b0b0b0 (gris clair) (transparence 0.8)
+Texte par défaut sur les boîtes (qui s'enlèvent quand on commence à écrire): #4e4e4e (gris foncé)
+Le "Champs obligatoires" et texte en haut: #FFFFFF (blanc)
